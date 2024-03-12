@@ -1,0 +1,6 @@
+ibm-cos-sdk==2.0.1
+ibm_db
+flask
+requests
+
+

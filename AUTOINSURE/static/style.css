@@ -1,0 +1,151 @@
+.nav1 h1
+{
+    font-size: 70px;
+    color:blue;
+    padding: 10px 20px;
+    
+}
+.nav1 ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:blue;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+  }
+  
+ .nav1 li {
+    float: right;
+    font-size: 30px;
+    text-align: right;
+    border-right: 3px solid white;
+    color:blue;
+}
+
+li a {
+    display: block;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+body{
+    background-image:url("img3.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#para1
+{
+    font-size: 80px;
+    padding: 120px 80px;
+    color:blue;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 50%;
+    box-shadow: 5px 10px;
+   
+}
+.btn1 {
+    border:5px solid black;
+    color:blue;
+    padding: 40px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family:sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+     }
+.nav1 h1
+{
+    font-size: 70px;
+    color:blue;
+    padding: 10px 20px;
+    
+}
+.nav1 ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:blue;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+  }
+  
+ .nav1 li {
+    float: right;
+    font-size: 30px;
+    text-align: right;
+    color:blue;
+}
+
+li a {
+    display: block;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+body{
+    background-image:url("background.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#para1
+{
+    font-size: 80px;
+    padding: 120px 80px;
+    color:blue;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 50%;
+    box-shadow: 5px 10px;
+   
+}
+  
+.nav2 h1
+{
+    font-size: 70px;
+    color:blue;
+    padding: 10px 20px;
+    
+}
+.nav2 ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:blue;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+  }
+  
+ .nav2 li {
+    float: right;
+    font-size: 30px;
+    text-align: right;
+    color:blue;
+}
+
+#para2
+{
+    font-size: 80px;
+    padding: 120px 80px;
+    color:red;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 50%;
+    box-shadow: 5px 10px;
+   
+}
+.venkat body{
+    background-image:url("img3.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}

@@ -1,0 +1,20 @@
+ apiVersion: apps/v1
+ kind: Deployment
+ metadata:
+   name: autoinsure2
+ spec:
+   replicas: 5
+   selector:
+     matchLabels:
+       app: autoinsure2
+   template:
+     metadata:
+       labels:
+         app: autoinsure2
+     spec:
+       containers:
+       - name: autoinsure2
+         image: us.icr.io/autoinsure2/mycluster2
+         imagePullPolicy: Always
+         ports:
+         - containerPort: 5000

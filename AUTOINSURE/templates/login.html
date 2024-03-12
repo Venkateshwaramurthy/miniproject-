@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link  rel="stylesheet" type="text/css" href="{{url_for('static',filename='style2.css')}}">
+</head>
+<body>
+   
+    <nav class="nav2">
+        <ul>
+            <br>
+            <br>
+            <h1>Auto Insure</h1>
+            <li><a href='/register'>Register</a></li>
+            <li><a href='/about'>About</a></li>
+            <li><a href='/'>Home</a></li>
+        </ul>
+          </nav>
+    <section>
+        <div class="form-container">
+            <h1>LOGIN</h1>
+            <form action="/login" method="post">
+                <div class="control">
+                    Email:<input type="email" name="Email"  placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                </div>
+                <div class="control">
+                    Password:<input type="password" name="Password"  placeholder="Password">
+                </div>
+                <div class="control">
+                  <input type="submit" value="Login">
+                </div>
+                <h3>
+              {{msg}}
+              </h3>
+              <h4>
+                {{error}}
+              </h4>
+
+         </div>
+    </section>
+</body>
+</html>
